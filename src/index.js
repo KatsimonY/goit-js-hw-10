@@ -8,7 +8,6 @@ const loader = document.querySelector('.loader');
 const errorBreeds = document.querySelector('.error');
 
 breedSelect.setAttribute('hidden', 'true');
-loader.setAttribute('hidden', 'true');
 errorBreeds.setAttribute('hidden', 'true');
 
 fetchBreeds()
